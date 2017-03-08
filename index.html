@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+        <title>Band Roster</title>
+    </head>
+    <body ng-app>
+        <h1>Alabama Shakes Band Members</h1>
+        <div ng-init="band=['Brittany Howard','Heath Fogg','Zac Cockrell','Steve Johnson']">
+            <h2 ng-repeat="member in band">{{member}}</h2>
+        </div>
+    </body>
+</html>
